@@ -1,0 +1,91 @@
+body {
+  background-color: #232323;
+  color: #575F7D;
+  font-family: 'Comfortaa', cursive;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+.profil-pic {
+  width: 150px;
+  border-radius: 2%;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #8B6423;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color: blueviolet;
+}
+
+#link-follow-me {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#link-follow-me:hover {
+  background-color: #E31079;
+}
+
+a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+a:hover {
+  color: #E31079;
+}
+
+p {
+  color: white;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 40px;
+}
+
+.card-white {
+  background-color: #413F42;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(3, 3, 3, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+  width: 600px;
+  margin: 20px auto;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.fa-brands, fa-solid {
+ margin: 8px 24px;
+}
+
+.fa-solid {
+  margin: 8px 24px;
+ }
+
+ @media all and (max-width: 960px) {
+  .card-white  {
+    width: 50%;
+  }
+}
